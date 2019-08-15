@@ -1,0 +1,45 @@
+.main-banner{
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+.text-color-red{
+    color: red;
+}
+.margin-center{
+    margin-left: 32%;
+}
+.background-red{
+    background-color: rgba(18, 17, 17, 0.26);
+}
+.background-white{
+    background-color: white;
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    min-height: 360px;
+}
+.img-circle{
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 50%;
+    margin: 20px;
+    position: absolute;
+    top: -30%;
+    right: 20%;
+}
+.recomment{
+    margin-top: 120px;
+}
+.client-comment{
+    margin-top: 70px;
+}
+.background-cmt{
+     background-color: white;
+     border-radius: 5px;
+    padding: 10px;
+    color: black;
+    margin: 10px;
+}
+.icon-cmt{
+    color: red;
+}

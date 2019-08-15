@@ -12,6 +12,12 @@
     position: relative;
     
 }
+.text-justify {
+      text-align: justify;
+}
+.text_margin{
+    margin-bottom: 20px;
+}
 .icon-block:hover{
     opacity: 0.7;
      -webkit-transition: all .5s ease-in-out;
