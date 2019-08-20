@@ -19,12 +19,16 @@
     <!-- Style Switch CSS -->
     <link rel="stylesheet" href="zero-styleswitch/style.css" />
     <style>
-        button:focus {
+                button:focus {
             outline: inherit;
         }
 
         /* Style the tab content */
         .tabcontent {
+            display: none;
+        }
+
+        .tabslide {
             display: none;
         }
 
@@ -92,11 +96,11 @@
                 <div class="row">
                     <div class="col-lg-12 ml-auto mr-auto text-center wow fadeInUp" data-wow-duration=".2s" data-wow-delay=".1s">
                         <h2 class="text-uppercase">phim 3d</h2>
-                        <p>Công cụ bán hàng Bất động sản di động cho Sales - hỗ trợ và đồng hành cùng Sales trong mọi hoạt động bán hàng.
+                        <button class="col-2 col-lg-2 active tablinks" onclick="openTab(event, 'phim')">Ultimate</button>
+                        <button class="col-1 col-lg-1 tablinks" onclick="openTab(event, 'anh')">Premium</button>
+                        <button class="col-2 col-lg-2 tablinks" onclick="openTab(event, 'tour360')">Standard</button>
+                         <p>Công cụ bán hàng Bất động sản di động cho Sales - hỗ trợ và đồng hành cùng Sales trong mọi hoạt động bán hàng.
                         </p>
-                        <button class="col-1 col-lg-1 active tablinks" onclick="openTab(event, 'phim')">Phim</button>
-                        <button class="col-1 col-lg-1 tablinks" onclick="openTab(event, 'anh')">Ảnh</button>
-                        <button class="col-1 col-lg-1 tablinks" onclick="openTab(event, 'tour360')">Tour 360</button>
                     </div>
                 </div>
                 <div class="row">
@@ -143,146 +147,102 @@
                                         </div>
                                         <h6 class="mb-3 mt-3"><a href="#">Video dự án Vinhomes Metropolis</a></h6>
                                     </div>
-                                </div>
-                                <div class="item wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
-                                    <div class="post-block">
-                                        <a href="#">
-                                            <iframe class="fame_mobile" height="300" allowfullscreen src="https://www.youtube.com/embed/PhRJp6IjZug"></iframe>
-                                        </a>
-                                        <div class="post-meta">
-                                            <ul class="list-inline mb-0">
-                                                <li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 24 tháng 3, năm 2017</a></li>
-                                            </ul>
-                                        </div>
-                                        <h6 class="mb-3 mt-3"><a href="#">Video dự án Vinhomes Greenbay</a></h6>
-                                    </div>
-                                </div>
-                                <div class="item wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
-                                    <div class="post-block">
-                                        <a href="#">
-                                            <iframe class="fame_mobile" height="300" allowfullscreen src="https://www.youtube.com/embed/DF-NeDc7P1M"></iframe>
-                                        </a>
-                                        <div class="post-meta">
-                                            <ul class="list-inline mb-0">
-                                                <li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 5 tháng 12, năm 2018</a></li>
-                                            </ul>
-                                        </div>
-                                        <h6 class="mb-3 mt-3"><a href="#">Nhà mẫu ảo TVC</a></h6>
-                                    </div>
-                                </div>
+                                </div>     
                             </div>
                         </div>
                     </div>
                     <div id="anh" class="tabslide">
-                        <section id="customer">
-                            <div class="container">
+                       <div class="container ">
+                            <div class="blog-slider center-align owl-carousel owl-theme">
+                                <div class="item wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
+                                    <div class="post-block">
+                                        <a href="#">
+                                            <iframe class="fame_mobile" height="300" allowfullscreen src="https://www.youtube.com/embed/aqRnQyOTpFI"></iframe>
 
-                                <div class="row align-items-center">
-                                    <div class="col-xl-10 col-lg-10 col-md-8 ml-md-auto mr-md-auto  text-center zoomIn" data-wow-duration=".3s" data-wow-delay=".2s">
-                                        <div class="row swiper-container">
-                                            <div class="swiper-wrapper">
-                                                <div data-page-number="1" onclick="openTour360(this.id)" class="swiper-slide"><img src="../assets/images/vni/cus_1.jpg" class="img-fluid" alt="" /></div>
-                                                <div data-page-number="2" onclick="openTour360(this.id)" class="swiper-slide"><img src="../assets/images/vni/cus_2.jpg" class="img-fluid" alt="" /></div>
-                                                <div data-page-number="3" onclick="openTour360(this.id)" class="swiper-slide"><img src="../assets/images/vni/cus_3.jpg" class="img-fluid" alt="" /></div>
-                                            </div>
-
+                                        </a>
+                                        <div class="post-meta">
+                                            <ul class="list-inline mb-0">
+                                                <li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 17 tháng 8, năm 2019</a></li>
+                                            </ul>
                                         </div>
-                                        <div class="swiper-pagination"></div>
+                                        <h6 class=" mb-3 mt-3">Sa bàn ảo tại sự kiện D-homme</h6>
                                     </div>
-
-
                                 </div>
+                                <div class="item wow fadeIn" data-wow-duration=".3s" data-wow-delay=".2s">
+                                    <div class="post-block">
+                                        <a href="#">
+                                            <iframe class="fame_mobile" height="300" src="https://www.youtube.com/embed/WzW8qpjk0-g"></iframe>
+                                        </a>
+                                        <div class="post-meta">
+                                            <ul class="list-inline mb-0">
+                                                <li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 12 tháng 8, năm 2019</a></li>
+                                            </ul>
+                                        </div>
+                                        <h6 class="mb-3 mt-3"><a href="#">Nhà mẫu ảo dự án Palm Marina</a></h6>
+                                    </div>
+                                </div>
+                                <div class="item wow fadeIn" data-wow-duration=".4s" data-wow-delay=".3s">
+                                    <div class="post-block">
+                                        <a href="#">
+                                            <iframe class="fame_mobile" height="300" allowfullscreen src="https://www.youtube.com/embed/fsVl19ssjWk"></iframe>
+
+                                        </a>
+                                        <div class="post-meta">
+                                            <ul class="list-inline mb-0">
+                                                <li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 18 tháng 10, năm 2018</a></li>
+                                            </ul>
+                                        </div>
+                                        <h6 class="mb-3 mt-3"><a href="#">Video dự án Vinhomes Metropolis</a></h6>
+                                    </div>
+                                </div>     
                             </div>
-                        </section>
+                        </div>
                     </div>
                     <div id="tour360" class="tabslide">
 
-                        <div class="container">
-                            <div class="row">
-                                <div class=" col-md-6 col-lg-4 col-xl-4  wow zoomIn" data-wow-duration=".2s" data-wow-delay=".1s">
-                                    <div class="icon-block mb-md-5 mb-sm-4">
-                                        <a href="product.html" class="image_item">
-                                            <img class=" w-100" src="../assets/images/vni/thumb/skylake.PNG" alt="" />
-                                            <h3 class="text-center mb-3 mt-3">Vinhomes Skylake</h3>
-                                        </a>
+                       <div class="container ">
+                            <div class="blog-slider center-align owl-carousel owl-theme">
+                                <div class="item wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
+                                    <div class="post-block">
+                                        <a href="#">
+                                            <iframe class="fame_mobile" height="300" allowfullscreen src="https://www.youtube.com/embed/aqRnQyOTpFI"></iframe>
 
+                                        </a>
+                                        <div class="post-meta">
+                                            <ul class="list-inline mb-0">
+                                                <li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 17 tháng 8, năm 2019</a></li>
+                                            </ul>
+                                        </div>
+                                        <h6 class=" mb-3 mt-3">Sa bàn ảo tại sự kiện D-homme</h6>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-lg-4 col-xl-4   wow zoomIn" data-wow-duration=".3s" data-wow-delay=".2s">
-                                    <div class="icon-block mb-md-5 mb-sm-4">
-                                        <a href="product.html" class="image_item">
-                                            <img class=" w-100" src="../assets/images/vni/thumb/ecocity.PNG" alt="" />
-                                            <h3 class="text-center mb-3 mt-3">DragonHomes EcoCity</h3>
-                                            <div class="overlay">
-                                                <i class="icon-show fa fa-eye"></i>
-                                            </div>
+                                <div class="item wow fadeIn" data-wow-duration=".3s" data-wow-delay=".2s">
+                                    <div class="post-block">
+                                        <a href="#">
+                                            <iframe class="fame_mobile" height="300" src="https://www.youtube.com/embed/WzW8qpjk0-g"></iframe>
                                         </a>
+                                        <div class="post-meta">
+                                            <ul class="list-inline mb-0">
+                                                <li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 12 tháng 8, năm 2019</a></li>
+                                            </ul>
+                                        </div>
+                                        <h6 class="mb-3 mt-3"><a href="#">Nhà mẫu ảo dự án Palm Marina</a></h6>
                                     </div>
                                 </div>
-                                <div class=" col-md-6 col-lg-4 col-xl-4  wow zoomIn" data-wow-duration=".4s" data-wow-delay=".3s">
-                                    <div class="icon-block mb-md-5 mb-sm-4">
-                                        <a href="product.html" class="image_item">
-                                            <img class=" w-100" src="../assets/images/vni/thumb/sun_village.PNG" alt="" />
-                                            <h3 class="text-center mb-3 mt-3">Green Pearl</h3>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-xl-4   wow zoomIn" data-wow-duration=".4s" data-wow-delay=".3s">
-                                    <div class="icon-block mb-md-5 mb-sm-4">
-                                        <a href="product.html" class="image_item">
-                                            <img class=" w-100" src="../assets/images/vni/thumb/beau_rivage.PNG" alt="" />
-                                            <h3 class="text-center mb-3 mt-3">Sun Premier Village</h3>
-                                        </a>
+                                <div class="item wow fadeIn" data-wow-duration=".4s" data-wow-delay=".3s">
+                                    <div class="post-block">
+                                        <a href="#">
+                                            <iframe class="fame_mobile" height="300" allowfullscreen src="https://www.youtube.com/embed/fsVl19ssjWk"></iframe>
 
-                                    </div>
-                                </div>
-                                <div class=" col-md-6 col-lg-4 col-xl-4  wow zoomIn" data-wow-duration=".2s" data-wow-delay=".1s">
-                                    <div class="icon-block mb-md-5 mb-sm-4">
-                                        <a href="product.html" class="image_item">
-                                            <img class=" w-100" src="../assets/images/vni/thumb/beau_rivage.PNG" alt="" />
-                                            <h3 class="text-center mb-3 mt-3">Beau Rivage</h3>
                                         </a>
-
+                                        <div class="post-meta">
+                                            <ul class="list-inline mb-0">
+                                                <li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 18 tháng 10, năm 2018</a></li>
+                                            </ul>
+                                        </div>
+                                        <h6 class="mb-3 mt-3"><a href="#">Video dự án Vinhomes Metropolis</a></h6>
                                     </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-xl-4   wow zoomIn" data-wow-duration=".3s" data-wow-delay=".2s">
-                                    <div class="icon-block mb-md-5 mb-sm-4">
-                                        <a href="product.html" class="image_item">
-                                            <img class=" w-100" src="../assets/images/vni/thumb//d-one.PNG" alt="" />
-                                            <h3 class="text-center mb-3 mt-3">D-One Saigon</h3>
-                                            <div class="overlay">
-                                                <i class="icon-show fa fa-eye"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class=" col-md-6 col-lg-4 col-xl-4  wow zoomIn" data-wow-duration=".4s" data-wow-delay=".3s">
-                                    <div class="icon-block mb-md-5 mb-sm-4">
-                                        <a href="product.html" class="image_item">
-                                            <img class=" w-100" src="../assets/images/vni/thumb/hindico.PNG" alt="" />
-                                            <h3 class="text-center mb-3 mt-3">Hinode City</h3>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-xl-4  wow zoomIn" data-wow-duration=".4s" data-wow-delay=".3s">
-                                    <div class="icon-block mb-md-5 mb-sm-4">
-                                        <a href="product.html" class="image_item">
-                                            <img class=" w-100" src="../assets/images/vni/thumb/sun.PNG" alt="" />
-                                            <h3 class="text-center mb-3 mt-3">SunPlazaGrandWord</h3>
-                                        </a>
-
-                                    </div>
-                                </div>
-                                <div class=" col-md-6 col-lg-4 col-xl-4 wow zoomIn" data-wow-duration=".2s" data-wow-delay=".1s">
-                                    <div class="icon-block mb-md-5 mb-sm-4">
-                                        <a href="product.html" class="image_item">
-                                            <img class=" w-100" src="../assets/images/vni/thumb/fivestar.PNG" alt="" />
-                                            <h3 class="text-center mb-3 mt-3">Five Star West Lake</h3>
-                                        </a>
-
-                                    </div>
-                                </div>
-                                
+                                </div>     
                             </div>
                         </div>
                     </div>
@@ -394,6 +354,29 @@
                 video.pause();
                 btn.innerHTML = "Play";
             }
+        }
+    </script>
+       <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
         }
     </script>
     <script>
