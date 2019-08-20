@@ -1051,7 +1051,7 @@ Banners styles
     position: absolute;
     left: 0;
     top: 0;
-    background: -webkit-gradient(linear, left top, left bottom, from(#f7c514), to(f7c514));
+        background: -webkit-gradient(linear, left top, left bottom, from(#F7C514), to(#F77314));
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(0, 0, 0, 0);
   }
