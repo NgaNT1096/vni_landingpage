@@ -26,3 +26,7 @@
     transform: scale(1.5);
     
 }
+.content-tour360{
+    z-index: 999;
+    height: 100%;
+}

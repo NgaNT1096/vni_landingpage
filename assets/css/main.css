@@ -274,9 +274,13 @@ ul {
 .lead {
   font-size: 14px;
   font-weight: 300;
-    margin: 0px;
+  margin: 0px;
 }
-
+.lead-text {
+  font-size: 22px;
+  font-weight: 300;
+    margin-top: 20px;
+}
 .size-xl {
   font-size: 32px;
 }
@@ -427,7 +431,7 @@ label.error {
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 999;
+  z-index: 100;
   -webkit-animation: fadeInDown 0.5s ease-out forwards;
   animation: fadeInDown 0.5s ease-out forwards;
 }

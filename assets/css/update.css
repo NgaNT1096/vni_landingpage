@@ -35,6 +35,10 @@
 
 }
 
+.image-header {
+    max-width: 140% !important;
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -71,9 +75,16 @@ button.active {
     opacity: 1;
 }
 
-
 #phim {
     display: block;
+}
+
+.topsection_margin {
+    margin-bottom: 40px;
+}
+
+.fame_mobile {
+    margin: 10%;
 }
 
 button {
@@ -89,6 +100,7 @@ button {
     opacity: 0.5;
     margin: 10px;
 }
+
 @media all and (max-width: 1280px) {
 
     #home,
@@ -104,6 +116,10 @@ button {
         padding-left: 10% !important;
         padding-right: 10% !important;
     }
+
+    .image-header {
+        max-width: 100% !important;
+    }
 }
 
 @media all and (max-width: 1024px) {
@@ -113,6 +129,9 @@ button {
 
     #image_partner {
         height: 36px !important;
+    }
+    .image-header {
+        max-width: 100% !important;
     }
 }
 
@@ -127,6 +146,9 @@ button {
 
     #image_partner {
         height: 36px !important;
+    }
+    .image-header {
+        max-width: 100% !important;
     }
 }
 
@@ -154,5 +176,8 @@ button {
 
     #image_partner {
         height: 26px !important;
+    }
+    .image-header {
+        max-width: 100% !important;
     }
 }
