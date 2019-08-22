@@ -123,6 +123,12 @@ button {
 }
 
 @media all and (max-width: 1024px) {
+    .size-mobile {
+        margin-top: 100px;
+    }
+    h1{
+        font-size: 32px !important;
+    }
     .btn-tuvan {
         text-align: center !important;
     }
@@ -136,6 +142,12 @@ button {
 }
 
 @media all and (max-width: 812px) {
+    h1{
+        font-size: 24px !important;
+    }
+    .size-mobile {
+        margin-top: 120px;
+    }
     .btn-tamnhin {
         text-align: center !important;
     }
@@ -151,6 +163,32 @@ button {
         max-width: 100% !important;
     }
 }
+@media all and (max-width: 768px) {
+    h1{
+        font-size: 20px !important;
+    }
+    h4{
+        font-size: 10px;
+    }
+    .size-mobile {
+        margin-top: 160px;
+    }
+    .btn-tamnhin {
+        text-align: center !important;
+    }
+
+    .feauture {
+        width: 100%;
+    }
+
+    #image_partner {
+        height: 36px !important;
+    }
+    .image-header {
+        max-width: 100% !important;
+    }
+}
+
 
 @media all and (max-width: 414px) {
     .size-mobile {
