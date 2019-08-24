@@ -773,7 +773,9 @@ Buttons
 .owl-carousel.row .owl-item {
   padding: 0 15px;
 }
-
+.owl-item{
+    width: 100%;
+}
 .owl-carousel.row .owl-item .card {
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
