@@ -35,6 +35,10 @@
 
 }
 
+.img_bg {
+    background-color: black;
+}
+
 .image-header {
     max-width: 140% !important;
 }
@@ -55,6 +59,11 @@
     -o-transition: opacity 300ms;
     transition: opacity 300ms;
 
+}
+
+.btn-our-mission {
+    position: relative;
+    top: -40px;
 }
 
 .icon-show {
@@ -101,6 +110,10 @@ button {
     margin: 10px;
 }
 
+.padding-image {
+    padding-left: 65px;
+}
+
 @media all and (max-width: 1280px) {
 
     #home,
@@ -119,6 +132,15 @@ button {
 
     .image-header {
         max-width: 100% !important;
+    }
+
+    .btn-our-mission {
+        position: relative;
+        top: 0px;
+    }
+
+    .padding-image {
+        padding-left: 0px;
     }
 }
 
@@ -216,6 +238,10 @@ button {
 
 
 @media all and (max-width: 414px) {
+    .margin-center {
+        margin-left: 0%;
+    }
+
     .size-mobile {
         margin-top: 120px;
     }
@@ -226,7 +252,7 @@ button {
     }
 
     .item-block {
-        width: 25%;
+        width: 50%;
     }
 
     .fame_mobile {

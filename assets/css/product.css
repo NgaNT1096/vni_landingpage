@@ -48,3 +48,13 @@
     padding-top: 6rem;
     padding-bottom: 0rem;
 }
+@media all and (max-width: 768px) {
+        .margin-center{
+        margin-left: 22% !important;
+    }
+}
+@media all and (max-width: 414px) {
+        .margin-center{
+        margin-left: 0% !important;
+    }
+}

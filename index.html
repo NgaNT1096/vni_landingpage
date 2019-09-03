@@ -17,9 +17,9 @@
     <link rel="stylesheet" href="assets/css/update.css">
     <link rel="stylesheet" href="assets/css/news.css">
     <link rel="stylesheet" href="assets/css/slider.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- Style Switch CSS -->
     <link rel="stylesheet" href="zero-styleswitch/style.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
         button:focus {
             outline: inherit;
@@ -28,6 +28,12 @@
         /* Style the tab content */
         .tabcontent {
             display: none;
+            width: 100%;
+        }
+
+        .tabcontent_image {
+            display: none;
+            width: 100%;
         }
 
         #tieuchuan {
@@ -66,25 +72,22 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <ul class="navbar-nav ml-auto mr-auto">
-                            <li class="nav-item"><a class="nav-link" data-scroll href="index.html">Giới thiệu </a></li>
-                            <li class="nav-item"><a class="nav-link" data-scroll href="#sanpham">Sản Phẩm</a></li>
-                            <li class="nav-item"><a class="nav-link" data-scroll href="#partner">Khách hàng</a></li>
-                            <li class="nav-item"><a class="nav-link" data-scroll href="#news">Tin tức </a></li>
-                            <li class="nav-item"><a class="nav-link" data-scroll href="#contact">Về chúng tôi</a></li>
+                            <li class="nav-item"><a class="nav-link" data-scroll href="index.html">INTRODUCTION</a></li>
+                            <li class="nav-item"><a class="nav-link" data-scroll href="index.html#sanpham">PRODUCTS</a></li>
+                            <li class="nav-item"><a class="nav-link" data-scroll href="index.html#why">SOLUTIONS</a></li>
+                            <li class="nav-item"><a class="nav-link" data-scroll href="index.html#product_sample">SAMPLES</a></li>
                         </ul>
-                        <a href="#contact" class="btn btn-light btn-rounded d-none d-lg-block">Liên hệ</a>
+                        <a href="#contact" class="btn btn-light btn-rounded d-none d-lg-block">Contact</a>
                     </div>
                 </div>
             </nav>
             <!-- End Navbar -->
         </header>
-
         <section id="home" class="parallax-fixed main-banner bg-videos video-placeholder">
             <div class="container">
-                <div class="row align-items-center ">
-                    <div class="col-md-8 col-lg-8 col-xl-8 text-center size-mobile text-lg-left text-md-center wow zoomIn">
-                        <h1 class="text-white text-capitalize strong mt-0" data-wow-duration=".2s" data-wow-delay=".1s">DIGITAL SALES KIT FOR REAL ESTATE</h1>
-                        <p class="lead text-white" data-wow-duration=".3s" data-wow-delay=".2s">Transform your traditional sales kit in to 3D digital world</p>
+                <div class="row content_header_margin align-items-center ">
+                    <div class="col-md-6 col-lg-6 col-xl-7 text-center size-mobile text-lg-left text-md-center wow zoomIn">
+                        <h1 class="text-white text-capitalize_h1 strong mt-0 text-uppercase" data-wow-duration=".2s" data-wow-delay=".1s">Transform your traditional <br>sales kit into 3D digital world</h1>
                         <div class="row  text-center feauture">
                             <div class="item-block col-lg-3 col-md-3 col-sm-3">
                                 <div class="counter-block wow fadeIn" data-wow-duration=".4s" data-wow-delay=".5s">
@@ -110,13 +113,13 @@
                             <div class="item-block col-lg-3 col-md-3 col-sm-3">
                                 <div class="counter-block wow fadeIn" data-wow-duration=".7s" data-wow-delay=".8s">
                                     <img src="assets/images/vni/ic_info.png">
-                                    <h6 class="text-white icon-hover">Infomation 360</h6>
+                                    <h6 class="text-white icon-hover">Information 360</h6>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-lg-4 col-xl-4 text-center text-lg-left text-md-center ml-md-auto mr-md-auto wow zoomIn" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img class="img-fluid icon-hover" data-wow-duration=".10s" data-wow-delay=".16s" src="assets/images/vni/@Smart_icon_2019.png" alt="" />
+                    <div class="col-md-6 col-lg-6 col-xl-5 text-center text-lg-left text-md-center ml-md-auto mr-md-auto wow zoomIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <img class="image-header icon-hover" data-wow-duration=".10s" data-wow-delay=".16s" src="assets/images/vni/icon_girl.png" alt="" />
                     </div>
                     =
                 </div>
@@ -130,22 +133,22 @@
             </div>
         </section>
         <!-- End Section App Feature -->
-        <section>
-            <div id="sanpham" class="container">
+        <section id="sanpham">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 ml-auto mr-auto text-center wow fadeInUp" data-wow-duration=".2s" data-wow-delay=".1s">
-                        <h2 class="text-uppercase">Sản phẩm của chúng tôi</h2>
-                        <p>Hiện thực hóa trí tưởng tượng, kết nối khách hàng vào tương lai với trải nghiệm không giới hạn.</p>
+                    <div class="col-lg-8 ml-auto mr-auto topsection_margin text-center wow fadeInUp" data-wow-duration=".2s" data-wow-delay=".1s">
+                        <h2 class="text-uppercase ">DIGITAL SALES KIT FOR REAL ESTATE</h2>
+                        </p>
                     </div>
                 </div>
                 <div class="row">
                     <div class=" col-md-6 col-lg-3 col-xl-3  wow zoomIn" data-wow-duration=".2s" data-wow-delay=".1s">
                         <div class="icon-block mb-md-5 mb-sm-4">
-                            <a href="product.html" class="image_item">
-                                <img class=" w-100" src="assets/images/vni/smart_360.png" alt="" />
-                                <h3 class="text-center mb-3 mt-3">Smart 360</h3>
-                                <h6 class="text-center mb-3 mt-3">Sales kit mobile IOS/Android.</h6>
-                                <p class="btn-tamnhin text-justify">Tích hợp phim, ảnh, tour360 và thông tin dự án, chính sách bán hàng vào một ứng dụng di động. Cắt giảm chi phí in ấn.</p>
+                            <a href="smart_360.html" class="image_item">
+                                <img class=" w-100" src="assets/images/vni/product/smart_360.jpg" alt="" />
+                                <h6 class="text-center mb-3 mt-3 text-uppercase">Sales kit mobile IOS/Android</h6>
+                                <h3 class="text-center mb-3 mt-3 text-uppercase"> Smart 360</h3>
+                                <p class="btn-tamnhin text-center ">Integrating videos, images, tour360 and project information, sales policies into a mobile application. Reducing printing costs.</p>
                                 <div class="overlay">
                                     <i class="icon-show fas fa-eye"></i>
                                 </div>
@@ -155,11 +158,11 @@
                     </div>
                     <div class="col-md-6 col-lg-3 col-xl-3   wow zoomIn" data-wow-duration=".3s" data-wow-delay=".2s">
                         <div class="icon-block mb-md-5 mb-sm-4">
-                            <a href="product.html" class="image_item">
-                                <img class=" w-100" src="assets/images/vni/smart_ar.jpg" alt="" />
-                                <h3 class="text-center mb-3 mt-3">Smart AR</h3>
-                                <h6 class="text-center mb-3 mt-3">Sa bàn ảo</h6>
-                                <p class="btn-tamnhin text-justify">Mang sa bàn dự án đi thuyết trình mọi nơi. Ai cũng có thể khám phá tổng thể dự án ngay trên tay với tương tác vật lý thật</p>
+                            <a href="smart_ar.html" class="image_item">
+                                <img class=" w-100" src="assets/images/vni/product/smart_AR.jpg" alt="" />
+                                <h6 class="text-center mb-3 mt-3 text-uppercase">Virtual Scale Model</h6>
+                                <h3 class="text-center mb-3 mt-3 text-uppercase">Smart AR</h3>
+                                <p class="btn-tamnhin text-center">Salesmen easily bring the project model to present everywhere with full information.</p>
                                 <div class="overlay">
                                     <i class="icon-show fa fa-eye"></i>
                                 </div>
@@ -168,21 +171,23 @@
                     </div>
                     <div class=" col-md-6 col-lg-3 col-xl-3   wow zoomIn" data-wow-duration=".4s" data-wow-delay=".3s">
                         <div class="icon-block mb-md-5 mb-sm-4">
-                            <a href="product.html" class="image_item">
-                                <img class=" w-100" src="assets/images/vni/smart_vr.png" alt="" />
-                                <h3 class="text-center mb-3 mt-3">Smart VR</h3>
-                                <h6 class="text-center mb-3 mt-3">Nhà mẫu ảo</h6>
-                                <p class="btn-tamnhin text-justify">Không tốn chi phí làm nhà mẫu. Kết nối người mua trong thế giới ảo nhằm cung cấp thông tin ở các sự kiện bán hàng.</p>
+                            <a href="smart_vr.html" class="image_item">
+                                <img class=" w-100" src="assets/images/vni/product/smart_VR.jpg" alt="" />
+                                <h6 class="text-center mb-3 mt-3 text-uppercase">Virtual Showflats</h6>
+                                <h3 class="text-center mb-3 mt-3 text-uppercase">Smart VR</h3>
+                                
+                                <p class="btn-tamnhin text-center">Cutting down costs for physical showflats. Connecting homebuyers in a virtual world to provide information at sales events.</p>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3 col-xl-3   wow zoomIn" data-wow-duration=".4s" data-wow-delay=".3s">
                         <div class="icon-block mb-md-5 mb-sm-4">
-                            <a href="product.html" class="image_item">
-                                <img class=" w-100" src="assets/images/vni/3d_content.png" alt="" />
-                                <h3 class="text-center mb-3 mt-3">3D content</h3>
-                                <h6 class="text-center mb-3 mt-3">Nội dung 3D thu hút người xem.</h6>
-                                <p class="btn-tamnhin text-justify">Phim, ảnh, tour360 bám sát chiến lược marketing - bán hàng. Phục vụ nhu cầu thấy trước tương lai của người mua nhà.</p>
+                            <a href="3d_content.html" class="image_item">
+                                <img class=" w-100" src="assets/images/vni/product/3D_contents.jpg" alt="" />
+                                <h6 class="text-center mb-3 mt-3 text-uppercase">Videos, CG Images, Tour360</h6>
+                                <h3 class="text-center mb-3 mt-3 text-uppercase">3D Contents</h3>
+                                
+                                <p class="btn-tamnhin text-center">Attractive 3D contents closely follow marketing - sales strategy. Serving the need to see the future of the homebuyers.</p>
                             </a>
 
                         </div>
@@ -191,13 +196,12 @@
             </div>
         </section>
         <!-- Section Features -->
-        <section class="why">
+        <section id="why">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 text-center wow fadeInUp" data-wow-duration=".2s" data-wow-delay=".1s">
-                        <h2 class="text-uppercase">Tại sao nên chọn VNi</h2>
-                        <p>
-                            Khách hàng chọn VNi - Vietnam Imagination vì chúng tôi hỗ trợ bán hàng dự án:
+                    <div class="col-lg-10 ml-auto mr-auto text-center topsection_margin wow fadeInUp" data-wow-duration=".2s" data-wow-delay=".1s">
+                        <h2 class="text-uppercase"> SOLUTIONS </h2>
+                        <p>Helping developers reduce costs for Real Model, Showflats and Traditional Sales kit,<br> easily synchronize many salesmen at the same time.
                         </p>
                     </div>
                 </div>
@@ -205,28 +209,28 @@
                     <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 text-center wow zoomIn" data-wow-duration=".2s" data-wow-delay=".1s">
                         <div class=" mb-md-5 mb-sm-4">
                             <img src="assets/images/icon/money.png">
-                            <h4 class="">Giảm chi phí nhà mẫu,<br>chi phí in ấn</h4>
+                            <h4 class="">Reducing cost for showflats and printing</h4>
 
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 text-center wow zoomIn" data-wow-duration=".5s" data-wow-delay=".3s">
                         <div class=" mb-md-5 mb-sm-4">
-                            <img src="assets/images/icon/time.png">
-                            <h4>Tiết kiệm thời gian,<br> không gian</h4>
+                            <img src="assets/images/icon_update/clock.png">
+                            <h4>Saving time and space</h4>
 
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 text-center wow zoomIn" data-wow-duration=".4s" data-wow-delay=".3s">
                         <div class=" mb-md-5 mb-sm-4">
                             <img src="assets/images/icon/dedang.png">
-                            <h4>Dễ dàng triển khai<br> ở bất kỳ đâu</h4>
+                            <h4>Bringing future images to homebuyers</h4>
 
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 text-center wow zoomIn" data-wow-duration=".3s" data-wow-delay=".2s">
                         <div class=" mb-md-5 mb-sm-4">
-                            <img src="assets/images/icon/minhbach.png">
-                            <h4>Minh bạch hóa thông tin,<br> hình ảnh nhà tương lai</h4>
+                            <img src="assets/images/icon_update/Frame.png">
+                            <h4> Providing transparent information and images</h4>
 
                         </div>
                     </div>
@@ -239,29 +243,28 @@
         <section id="features">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 ml-auto mr-auto text-center">
-                        <h2 class="text-uppercase">Quy trình làm việc ở VNi?</h2>
-                        <p>
-                            VNi có những giá trị cốt lõi, hợp sức khai phá các mục tiêu, bám theo sứ mệnh để hiện thực hóa những Giấc mơ. Sức mạnh của VNi là Kỷ luật và Đoàn kết.
+                    <div class="col-lg-8 ml-auto mr-auto topsection_margin text-center">
+                        <h2 class="text-uppercase">VNi’S WORKING PROCESS</h2>
+                        <p>With over 12 years of experience, we have optimized the everyday working process to bring the best sales kit to your project.
                         </p>
                     </div>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-center text-lg-right">
                         <div class="service-box icon-right mb-xs-4 wow zoomIn" data-wow-duration=".2s" data-wow-delay=".1s">
-                            <i class="lnr lnr-thumbs-up"></i>
-                            <h4 class="m-0">Bước 1</h4>
-                            <p>Nhận thông tin, tìm hiểu nhu cầu dự án</p>
+                            <i class=""><img src="assets/images/icon_update/research.png"></i>
+                            <h4 class="m-0">Step 1</h4>
+                            <p> Receiving information, studying the project’s demand</p>
                         </div>
                         <div class="service-box icon-right mb-xs-4 wow zoomIn" data-wow-duration=".4s" data-wow-delay=".2s">
-                            <i class="lnr lnr-mic"></i>
-                            <h4 class="m-0 ">Bước 2</h4>
-                            <p>Tư vấn sản phẩm phù hợp với dự án</p>
+                            <i class=""><img src="assets/images/icon_update/currency.png"></i>
+                            <h4 class="m-0 ">Step 2</h4>
+                            <p>Advising suitable products</p>
                         </div>
                         <div class="service-box icon-right mb-xs-4 wow zoomIn" data-wow-duration=".6s" data-wow-delay=".4s">
-                            <i class="lnr lnr-text-format"></i>
-                            <h4 class="m-0">Bước 3</h4>
-                            <p>Báo giá và thống nhất hợp đồng</p>
+                            <i class=""><img src="assets/images/icon_update/contract.png"></i>
+                            <h4 class="m-0">Step 3</h4>
+                            <p>Finalizing quotation and contract</p>
                         </div>
                     </div>
                     <div class="col-lg-4 text-center mb-xs-4 wow zoomIn" data-wow-duration=".3s" data-wow-delay=".2s">
@@ -269,235 +272,273 @@
                     </div>
                     <div class="col-lg-4 text-center text-lg-left">
                         <div class="service-box icon-left mb-xs-4 wow zoomIn" data-wow-duration=".4s" data-wow-delay=".2s">
-                            <i class="lnr lnr-magic-wand"></i>
-                            <h4 class="m-0">Bước 4</h4>
-                            <p>Triển khai phát triển sản phẩm</p>
+                            <i class=""><img src="assets/images/icon_update/digital-marketing.png"></i>
+                            <h4 class="m-0">Step 4</h4>
+                            <p>Deploying to develop digital sales kit </p>
                         </div>
                         <div class="service-box icon-left mb-xs-4 wow zoomIn" data-wow-duration=".6s" data-wow-delay=".4s">
-                            <i class="lnr lnr-lock"></i>
-                            <h4 class="m-0">Bước 5</h4>
-                            <p>Điều chỉnh theo yêu cầu thực tế</p>
+                            <i class=""><img src="assets/images/icon_update/settings.png"></i>
+                            <h4 class="m-0">Step 5</h4>
+                            <p>Adjusting according to actual requirements</p>
                         </div>
                         <div class="service-box icon-left wow zoomIn" data-wow-duration=".8s" data-wow-delay=".6s">
-                            <i class="lnr lnr-coffee-cup"></i>
-                            <h4 class="m-0">Bước 6</h4>
-                            <p>Bàn giao, cài đặt và hướng dẫn sử dụng.</p>
+                            <i class=""><img src="assets/images/icon_update/handshake.png"></i>
+                            <h4 class="m-0">Step 6</h4>
+                            <p>Handing over the products, setup and user manuals</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- End Section Features -->
-        <section id="blogs">
+        <section id="product_sample">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 ml-auto mr-auto text-center">
-                        <h2 class="text-uppercase">TRẢI NGHIỆM KHÁCH HÀNG</h2>
-                        <p>Chúng tôi đồng hành trong các sự kiện, hỗ trợ chủ đầu tư mang tới người mua những trải nghiệm chân thực nhất, cụ thể nhất về căn nhà tương lai</p>
-                    </div>
-                </div>
-                <div class="blog-slider center-align owl-carousel owl-theme">
-                    <div class="item wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
-                        <div class="post-block">
-                            <a href="#">
-                                <iframe class="fame_mobile" height="300" allowfullscreen src="https://www.youtube.com/embed/EshTPIjbwsc"></iframe>
+                    <div class="tab col-lg-12 ml-auto mr-auto text-center wow fadeInUp" data-wow-duration=".2s" data-wow-delay=".1s">
+                        <h2 class="text-uppercase">PROJECTS' SAMPLE</h2>
 
-                            </a>
-                            <div class="post-meta">
-                                <ul class="list-inline mb-0">
-                                    <li class="list-inline-item"><a href="#"><i class="fa fa-user" aria-hidden="true"></i> John</a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 20 Sep. 2017</a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="fa fa-comments"></i> 20 Comments</a></li>
-                                </ul>
-                            </div>
-                            <h6 class=" mb-3 mt-3">Trải nghiệm thăm quan dự án SMart VR</h6>
+                        <div class="tab">
+                            <button class="tablinks tab_video"  id="id_video" onclick="openCity(event, 'tab_video')" >Videos</button>
+                            <button class="tablinks tab_image" id="id_image" onclick="openCity(event, 'tab_image')" id="defaultOpen">CG Images</button>
+                            <button class="tablinks tab_tour360" id="id_tour360"  onclick="openCity(event, 'tab_tour360')">Tour 360</button>
                         </div>
-                    </div>
-                    <div class="item wow fadeIn" data-wow-duration=".3s" data-wow-delay=".2s">
-                        <div class="post-block">
-                            <a href="#">
-                                <iframe class="fame_mobile" height="300" src="https://www.youtube.com/embed/lok3rhSotxo"></iframe>
-                            </a>
-                            <div class="post-meta">
-                                <ul class="list-inline mb-0">
-                                    <li class="list-inline-item"><a href="#"><i class="fa fa-user" aria-hidden="true"></i> John</a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 20 Sep. 2017</a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="fa fa-comments"></i> 20 Comments</a></li>
-                                </ul>
-                            </div>
-                            <h6 class="mb-3 mt-3"><a href="#">Trải nghiệm thăm quan dự án SMart VR</a></h6>
-                        </div>
-                    </div>
-                    <div class="item wow fadeIn" data-wow-duration=".4s" data-wow-delay=".3s">
-                        <div class="post-block">
-                            <a href="#">
-                                <iframe class="fame_mobile" height="300" allowfullscreen src="https://www.youtube.com/embed/VU427pbBXQw"></iframe>
-
-                            </a>
-                            <div class="post-meta">
-                                <ul class="list-inline mb-0">
-                                    <li class="list-inline-item"><a href="#"><i class="fa fa-user" aria-hidden="true"></i> John</a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 20 Sep. 2017</a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="fa fa-comments"></i> 20 Comments</a></li>
-                                </ul>
-                            </div>
-                            <h6 class="mb-3 mt-3"><a href="#">Trải nghiệm thăm quan dự án SMart VR</a></h6>
-                        </div>
-                    </div>
-                    <div class="item wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
-                        <div class="post-block">
-                            <a href="#">
-                                <iframe class="fame_mobile" height="300" allowfullscreen src="https://www.youtube.com/embed/EshTPIjbwsc"></iframe>
-                            </a>
-                            <div class="post-meta">
-                                <ul class="list-inline mb-0">
-                                    <li class="list-inline-item"><a href="#"><i class="fa fa-user" aria-hidden="true"></i> John</a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 20 Sep. 2017</a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="fa fa-comments"></i> 20 Comments</a></li>
-                                </ul>
-                            </div>
-                            <h6 class="mb-3 mt-3"><a href="#">Trải nghiệm thăm quan dự án SMart VR</a></h6>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section id="blogs news">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 ml-auto mr-auto text-center">
-                        <h2 class="text-uppercase">TIN TỨC CÔNG NGHỆ</h2>
-                        <p>Thông tin cập nhật về công nghệ - xu hướng công nghệ</p>
-                    </div>
-                </div>
-                <div class="blog-slider center-align owl-carousel owl-theme">
-                    <div class="icon-block text-center item wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
-                        <div class="post-block">
-                            <a href="news.html">
-                                <img class="img-fluid w-100" src="assets/images/vni/new_1.jpg" alt="" />
-                            </a>
-                            <h3 class="text-center mb-3 mt-3">Công nghệ VR là gì ?</h3>
-                            <h6 class=" mb-3 mt-3">giới thiệu</h6>
-                        </div>
-                    </div>
-                    <div class="icon-block text-center item wow fadeIn" data-wow-duration=".3s" data-wow-delay=".2s">
-                        <div class="post-block">
-                            <a href="news.html">
-                                <img class="img-fluid w-100" src="assets/images/vni/new_2.jpg" alt="" />
-                            </a>
-                            <h3 class="text-center mb-3 mt-3">Công nghệ AR là gì ?</h3>
-                            <h6 class=" mb-3 mt-3">giới thiệu</h6>
-                        </div>
-                    </div>
-                    <div class="icon-block text-center item wow fadeIn" data-wow-duration=".4s" data-wow-delay=".3s">
-                        <div class="post-block">
-                            <a href="news.html">
-                                <img class="img-fluid w-100" src="assets/images/vni/new_3.jpg" alt="" />
-                            </a>
-                            <h3 class="text-center mb-3 mt-3">Thế giới ảo Wonder VR</h3>
-                            <h6 class=" mb-3 mt-3">giới thiệu</h6>
-                        </div>
-                    </div>
-                    <div class="icon-block text-center item wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
-                        <div class="post-block">
-                            <a href="news.html">
-                                <img class="img-fluid w-100" src="assets/images/vni/new_4.jpg" alt="" />
-                            </a>
-                            <h3 class=" mb-3 mt-3">Xu hướng 4.0</h3>
-                            <h6 class=" mb-3 mt-3">giới thiệu</h6>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!-- End Section Intro -->
-
-        <!-- Section About -->
-        <section id="customer" class="bg-1">
-            <div class="container">
-
-                <div class="row align-items-center">
-                    <div class="col-xl-5 col-lg-10 col-md-12 ml-md-auto mr-md-auto text-white wow zoomIn" data-wow-duration=".3s" data-wow-delay=".2s">
-                        <h2 class="text-white btn-tuvan text-uppercase">Người mua nhà mong muốn thấy gì ?</h2>
-                        <p class="text-center btn-tuvan text-lg-left">
-                            Bạn có muốn người mua nhà biết thông tin dự án một cách minh bạch, thấy trước những gì còn trong tưởng tượng?
+                        <p class="tab col-lg-12 ml-auto mr-auto text-center wow fadeInUp"> Closely follow the Sales/Marketing strategy - Serve the needs to foresee the future of homebuyers.
                         </p>
-                        <div class="text-center btn-tuvan text-lg-left">
-                            <a href="#contact"><button  class="btn-white">Liên hệ tư vấn ngay</button></a>
-                        </div>
                     </div>
-                    <div class="col-xl-7 col-lg-8 col-md-8 ml-md-auto mr-md-auto  text-center zoomIn" data-wow-duration=".3s" data-wow-delay=".2s">
-                        <div class="row swiper-container">
-                            <div class="swiper-wrapper">
-                                <div data-page-number="1" onclick="openTour360(this.id)" class="swiper-slide"><img src="assets/images/vni/cus_1.jpg" class="img-fluid" alt="" /></div>
-                                <div data-page-number="2" onclick="openTour360(this.id)" class="swiper-slide"><img src="assets/images/vni/cus_2.jpg" class="img-fluid" alt="" /></div>
-                                <div data-page-number="3" onclick="openTour360(this.id)" class="swiper-slide"><img src="assets/images/vni/cus_3.jpg" class="img-fluid" alt="" /></div>
+                </div>
+                <div class="row">
+                    <div id="tab_video" class="tabcontent">
+
+                        <section class="customer">
+                            <div class="container ">
+                                <div class="app-screenshots center-align owl-carousel owl-theme row">
+                                    <div class="item ml-auto mr-auto wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
+                                        <iframe class="fame_mobile" height="300" allowfullscreen src="https://www.youtube.com/embed/aqRnQyOTpFI"></iframe>
+
+                                        <div class="post-meta">
+                                            <ul class="list-inline mb-0">
+                                                <li class="list-inline-item"><a><i class="fa fa-calendar"></i> 17 tháng 8, năm 2019</a></li>
+                                            </ul>
+                                        </div>
+                                        <h6 class="text-center mb-3 mt-3">Virtual Model at D-homme's event</h6>
+                                    </div>
+                                    <div class="item wow fadeIn" data-wow-duration=".3s" data-wow-delay=".2s">
+                                        <iframe class="fame_mobile" height="300" src="https://www.youtube.com/embed/WzW8qpjk0-g"></iframe>
+
+                                        <div class="post-meta">
+                                            <ul class="list-inline mb-0">
+                                                <li class="list-inline-item"><a><i class="fa fa-calendar"></i> 12/8/2019</a></li>
+                                            </ul>
+                                        </div>
+                                        <h6 class="text-center mb-3 mt-3"><a>Palm Marina's Virtual Showflat</a></h6>
+                                    </div>
+                                    <div class="item wow fadeIn" data-wow-duration=".4s" data-wow-delay=".3s">
+                                        <iframe class="fame_mobile" height="300" allowfullscreen src="https://www.youtube.com/embed/fsVl19ssjWk"></iframe>
+
+                                        <div class="post-meta">
+                                            <ul class="list-inline mb-0">
+                                                <li class="list-inline-item"><a><i class="fa fa-calendar"></i> 18/10/2018</a></li>
+                                            </ul>
+                                        </div>
+                                        <h6 class="text-center mb-3 mt-3"><a>Vinhomes Metropolis's 3D Video </a></h6>
+                                    </div>
+                                    <div class="item wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
+                                        <iframe class="fame_mobile" height="300" allowfullscreen src="https://www.youtube.com/embed/PhRJp6IjZug"></iframe>
+
+                                        <div class="post-meta">
+                                            <ul class="list-inline mb-0">
+                                                <li class="list-inline-item"><a><i class="fa fa-calendar"></i> 24/3/2017</a></li>
+                                            </ul>
+                                        </div>
+                                        <h6 class="text-center mb-3 mt-3"><a>Vinhomes Greenbay's 3D Video </a></h6>
+                                    </div>
+                                    <div class="item wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
+                                        <iframe class="fame_mobile" height="300" allowfullscreen src="https://www.youtube.com/embed/DF-NeDc7P1M"></iframe>
+
+                                        <div class="post-meta">
+                                            <ul class="list-inline mb-0">
+                                                <li class="list-inline-item"><a><i class="fa fa-calendar"></i> 5/12/2018</a></li>
+                                            </ul>
+                                        </div>
+                                        <h6 class="text-center mb-3 mt-3"><a>TVC Virtual Showflat</a></h6>
+                                    </div>
+                                </div>
                             </div>
-
-                        </div>
-                        <div class="swiper-pagination"></div>
+                        </section>
                     </div>
 
+                    <div id="tab_image" class="tabcontent">
 
+                        <section class="customer">
+                            <div class="container ">
+                                <div class="app-screenshots center-align owl-carousel owl-theme row">
+                                    <div class="item ml-auto mr-auto fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
+                                        <img id="0" onclick="openImage(this.id)" class=" w-100" src="assets/images/vni/congtrinh/1.jpg" alt="" />
+                                        <h6 class="text-center mb-3 mt-3"> Urban Planning Images</h6>
+                                    </div>
+                                    <div class="item fadeIn" data-wow-duration=".3s" data-wow-delay=".2s">
+                                        <img id="1" onclick="openImage(this.id)" class=" w-100" src="assets/images/vni/congtrinh/2.jpg" alt="" />
+                                        <h6 class="text-center mb-3 mt-3">Lowrise Building Images</h6>
+                                    </div>
+                                    <div class="item  fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
+                                        <img id="3" onclick="openImage(this.id)" class=" w-100" src="assets/images/vni/congtrinh/4.jpg" alt="" />
+                                        <h6 class="text-center mb-3 mt-3">Highrise Building Images</h6>
+                                    </div>
+                                    <div class="item fadeIn" data-wow-duration=".4s" data-wow-delay=".3s">
+                                        <img id="2" onclick="openImage(this.id)" class=" w-100" src="assets/images/vni/congtrinh/3.jpg" alt="" />
+                                        <h6 class="text-center mb-3 mt-3">Interior Images</h6>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </section>
+                    </div>
+
+                    <div id="tab_tour360" class="tabcontent">
+
+                        <section class="customer">
+                            <div class="container ">
+                                <div class="app-screenshots center-align owl-carousel owl-theme row">
+                                    <div class="item fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
+                                        <div class="post-block">
+                                            <img id="0" onclick="openTour360(this.id)" class=" w-100" src="assets/images/vni/thumb/skylake.PNG" alt="" />
+                                            <h6 class="text-center mb-3 mt-3">Vinhomes Skylake</h6>
+                                        </div>
+                                    </div>
+                                    <div class="item fadeIn" data-wow-duration=".3s" data-wow-delay=".2s">
+                                        <div class="post-block">
+                                            <img id="1" onclick="openTour360(this.id)" class=" w-100" src="assets/images/vni/thumb/sailing_club.JPG" alt="" />
+                                            <h6 class="text-center mb-3 mt-3">Sailing Club Villas</h6>
+                                        </div>
+                                    </div>
+                                    <div class="item fadeIn" data-wow-duration=".4s" data-wow-delay=".3s">
+                                        <div class="post-block">
+                                            <img id="2" onclick="openTour360(this.id)" class=" w-100" src="assets/images/vni/thumb/beau_rivage.PNG" alt="" />
+                                            <h6 class="text-center mb-3 mt-3">Beau Rivage</h6>
+                                        </div>
+                                    </div>
+                                    <div class="item  fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
+                                        <div class="post-block">
+                                            <img id="3" onclick="openTour360(this.id)" class=" w-100" src="assets/images/vni/thumb/sun_village.PNG" alt="" />
+                                            <h6 class="text-center mb-3 mt-3">Sun Premier Village Primavera </h6>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="btn-tab-info col-lg-12 align-items-center">
+                    <div class="col-xl-5 col-lg-10 col-md-12 ml-md-auto mr-md-auto text-white wow zoomIn" data-wow-duration=".3s" data-wow-delay=".2s">
+                        <div class="text-center btn-tuvan ">
+                            <a href="#contact" class="btn btn-cta btn-lg btn-rounded">CONTACT FOR CONSULTANT NOW</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <!-- End Section About -->
-
-        <!-- Section Intro -->
         <section class="bg-light">
             <div class="container">
                 <div class="row">
 
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-lg-6 ml-auto order-md-2 wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
-                        <img class="img-row" src="assets/images/action/tamnhin.jpg" alt="" />
+                    <div class="col-lg-6 mr-auto text-left btn-our-mission  order-md-1 wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
+                        <div class="col-lg-12 ">
+                            <h2 class="text-uppercase">OUR MISSION</h2>
+                            <p>Creating high-tech applications that help visualize people's imagination, connecting them to the unlimited experiences in terms of space and time.
+                            </p>
+                            <p><a href="#contact" class="btn btn-cta btn-lg btn-rounded">JOIN US</a></p>
+                        </div>
 
                     </div>
-                    <div class="col-lg-6 mr-auto text-left btn-tamnhin  order-md-1 wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
-                        <div class="service-xs-box icon-right mb-xs-4">
-                            <div class="col-lg-8 ">
-                                <h2 class="text-uppercase">Tầm nhìn</h2>
-                            </div>
-                            <p>Bằng Năng lực của mình, KẾT NỐI con người vào cuộc sống mới, không gian mới, cảm xúc mới, trải nghiệm mới về cuộc sống hạnh phúc hơn. Kết nối những hệ thống để mang lại giá trị cho chính mình. Kết nối chính mình vào hệ thống.
-                                <br>GIÁ TRỊ CỐT LÕI CỦA VNi: TÍN - TRÍ - TÂM
-                            </p>
-                        </div>
-                        <p><a href="#contact" class="btn btn-cta btn-lg btn-rounded">Tham gia cùng chúng tôi</a></p>
+                    <div class="col-lg-6  order-md-2 wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
+                        <img class="img-row" src="assets/images/action/tamnhin.png" alt="" />
+
                     </div>
+
                 </div>
             </div>
         </section>
-        <!-- End Contact -->
+        <div class="slider" id="slider-image">
+            <div class="w3-content w3-display-container">
+                <button onclick="closeImage()" class="w3-button w3-black w3-display-close">&#10006;</button>
+
+                <img class="mySlides" src="assets/images/vni/3d_content/Ultimate/1.jpg" style="width:100%">
+                <img class="mySlides" src="assets/images/vni/3d_content/Ultimate/2.jpg" style="width:100%">
+                <img class="mySlides" src="assets/images/vni/3d_content/Ultimate/3.jpg" style="width:100%">
+                <img class="mySlides" src="assets/images/vni/3d_content/Ultimate/4.jpg" style="width:100%">
+
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+
+        </div>
+        <div class="slider" id="slider_image_pre">
+            <div class="w3-content w3-display-container">
+                <button onclick="closeImage_pre()" class="w3-button w3-black w3-display-close">&#10006;</button>
+
+                <img class="mySlides_pre" src="assets/images/vni/3d_content/Premium/1.jpg" style="width:100%">
+                <img class="mySlides_pre" src="assets/images/vni/3d_content/Premium/2.jpg" style="width:100%">
+                <img class="mySlides_pre" src="assets/images/vni/3d_content/Premium/3.jpg" style="width:100%">
+                <img class="mySlides_pre" src="assets/images/vni/3d_content/Premium/4.jpg" style="width:100%">
+
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs_pre(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs_pre(1)">&#10095;</button>
+            </div>
+
+        </div>
+        <div class="slider" id="slider_image_standard">
+            <div class="w3-content w3-display-container">
+                <button onclick="closeImage_standard()" class="w3-button w3-black w3-display-close">&#10006;</button>
+
+                <img class="mySlides_standard" src="assets/images/vni/3d_content/Standard/1.jpg" style="width:100%">
+                <img class="mySlides_standard" src="assets/images/vni/3d_content/Standard/2.jpg" style="width:100%">
+                <img class="mySlides_standard" src="assets/images/vni/3d_content/Standard/3.jpg" style="width:100%">
+                <img class="mySlides_standard" src="assets/images/vni/3d_content/Standard/4.jpg" style="width:100%">
+
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs_standard(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs_standard(1)">&#10095;</button>
+            </div>
+
+        </div>
+
+        <div class="slider" id="slider-tour360">
+            <div class="w3-display-container content-tour360">
+                <button onclick="closeTour360()" class="w3-button w3-black w3-display-close">&#10006;</button>
+
+                <iframe width="100%" height="100%" id="slidetour360" class="slidestour360" id="frame_detail" scrolling="no" src="http://sailingclubvillasphuquoc.vn/3dtour/index.html">
+                </iframe>
+            </div>
+
+        </div>
         <section id="contact" class="bg-dark text-white">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 ml-auto mr-auto text-center wow fadeInUp">
-                        <h2 class="text-white text-uppercase">Liên hệ ngay</h2>
-                        <p>
-                            Liên hệ ngay với chúng tôi ngay bây giờ để trở thành những người tiên phong<br> trong đổi mới giáo dục và đào tạo Việt Nam.
-
+                        <h2 class="text-white text-uppercase">CONTACT US NOW</h2>
+                        <p>Contact us now to become the pioneer in digitizing Real Estate Sales Kit.
                         </p>
                     </div>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-md-12 col-xl-10 mr-auto ml-auto">
                         <div class="row">
-                            <div class="col-md-2 col-lg-2 wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
-                                <img src="assets/images/vni/logo_vni.png">
+                            <div class="col-md-3 col-lg-3 wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
+                                <img src="assets/images/vni/logo_2.png">
                             </div>
-                            <div class="col-md-6 col-lg-6 wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
+                            <div class="col-md-5 col-lg-5 wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
                                 <div class="address-block mb-2">
                                     <i class="lnr lnr-map-marker"></i>
                                     <p class="lead"> 3rd Floor, Ha Thanh Plaza, 102 Thai Thinh, Dong Da dist, Hanoi, Vietnam</p>
                                 </div>
                                 <div class="address-block mb-2">
                                     <i class="lnr lnr-map-marker"></i>
-                                    <p class="lead">3rd Floor, Circo Space, No.09 Nguyen Trai, Dist. 1, HCM City, Vietnam</p>
+                                    <p class="lead">2nd Floor, Saigon Co.Op Building, No.253 Dien Bien Phu, Ward 7, District 3, HCM City, Vietnam</p>
                                 </div>
                                 <div class="address-block mb-2">
                                     <i class="lnr lnr-inbox"></i>
@@ -506,7 +547,7 @@
                                 </div>
                                 <div class="address-block mb-2">
                                     <i class="lnr lnr-phone-handset"></i>
-                                    <p class="lead">Hotline: 0868 577 199<br /></p>
+                                    <p class="lead">Hotline: +84 868 577 199<br /></p>
                                 </div>
                             </div>
 
@@ -531,21 +572,7 @@
                 </div>
             </div>
         </section>
-        <div class="slider" id="slider-image">
-            <div class="w3-content w3-display-container">
-                 <button onclick="closeTour360()" class="w3-button w3-black w3-display-close">&#10006;</button>
-                
-                <img class="mySlides" src="assets/images/vni/thumb/beau_rivage.PNG" style="width:100%">
-                <img class="mySlides" src="assets/images/vni/thumb/ecocity.PNG" style="width:100%">
-                <img class="mySlides" src="assets/images/vni/thumb/fivestar.PNG" style="width:100%">
-                <img class="mySlides" src="assets/images/vni/thumb/greenpearl.PNG" style="width:100%">
-                
-                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-            </div>
-
-        </div>
-        
+        <!-- Footer -->
         <!-- Footer -->
         <div class="footer">
             <div class="container">
@@ -578,10 +605,38 @@
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
     <!-- Style Switch JS -->
-    <!--    <script src="zero-styleswitch/script.js"></script>-->
+    <script src="zero-styleswitch/script.js"></script>
     <script>
+//        var link_url = window.location.href;
+//        var id = link_url.substring(link_url.lastIndexOf('/') + 1);
+//         console.log(id);
+//        if(id == 'index.html#tab_image'){
+//            console.log(id);
+//            var btn = document.getElementById("id_image");
+//            btn.setAttribute("id", "defaultOpen");
+//        }else if(id == 'index.html#tab_tour360'){
+//            console.log(id);
+//            var btn2 = document.getElementById("id_tour360");
+//            btn2.setAttribute("id", "defaultOpen");
+//        }else if(id == 'index.html#tab_video'){
+//            console.log(id);
+//            var btn3 = document.getElementById("id_video");
+//            btn3.setAttribute("id", "defaultOpen");
+//        }else if(id == '' || id == "index.html") {
+//            var btn = document.getElementById("id_image");
+//            btn.setAttribute("id", "defaultOpen");
+//        }
+        
         var video = document.getElementById("myVideo");
         var btn = document.getElementById("myBtn");
+        var array = [
+
+            'http://holomia.com/duan/vinhomes_Skylake/index.html',
+            'http://sailingclubvillasphuquoc.vn/3dtour/index.html',
+            'http://holomia.com/duan/BeauRivage/v9/index.html',
+            'http://holomia.com/duan/SunDTH/Ver11/SunDTH_360.html',
+            'http://holomia.com/duan/BeauRivage/v9/index.html'
+        ];
 
         function myFunction() {
             if (video.paused) {
@@ -592,26 +647,86 @@
                 btn.innerHTML = "Play";
             }
         }
-        function openTour360(id) {
+
+        function openImage(id) {
             document.getElementById("slider-image").style.visibility = "visible";
-//            document.getElementById("frame_detail").src = array[id];
+            //            document.getElementById("frame_detail").src = array[id];
+
+        }
+
+        function closeImage() {
+            document.getElementById("slider-image").style.visibility = "hidden";
+
+        }
+
+        function openImage_pre(id) {
+            document.getElementById("slider_image_pre").style.visibility = "visible";
+            //            document.getElementById("frame_detail").src = array[id];
+
+        }
+
+        function closeImage_pre() {
+            document.getElementById("slider_image_pre").style.visibility = "hidden";
+
+        }
+
+        function openImage_standard(id) {
+            document.getElementById("slider_image_standard").style.visibility = "visible";
+            //            document.getElementById("frame_detail").src = array[id];
+
+        }
+
+        function closeImage_standard() {
+            document.getElementById("slider_image_standard").style.visibility = "hidden";
+
+        }
+
+        /*tour 360*/
+        function openTour360(id) {
+            unmute();
+            document.getElementById("slider-tour360").style.visibility = "visible";
+            document.getElementById("slidetour360").src = array[id];
 
         }
 
         function closeTour360() {
-            document.getElementById("slider-image").style.visibility = "hidden";
-            
+            document.getElementById("slider-tour360").style.visibility = "hidden";
+            mute();
+
+        }
+        var iframe_bk;
+        //play status
+        var status = 1;
+
+        function mute() {
+            if (status != 1) return;
+            var iframe = $("#slidetour360");
+            iframe_bk = iframe.clone();
+            iframe.remove();
+
+            status = 0;
+        }
+
+        function unmute() {
+            if (status != 0) return;
+            if (iframe_bk) {
+                $(".content-tour360").append(iframe_bk);
+                iframe_bk = null;
+                status = 1;
+            }
         }
     </script>
     <script>
         var slideIndex = 1;
         showDivs(slideIndex);
+        showDivs_pre(slideIndex);
+        showDivs_standard(slideIndex);
 
         function plusDivs(n) {
             showDivs(slideIndex += n);
         }
 
-        function showDivs(n) {
+        function showDivs(n, name) {
             var i;
             var x = document.getElementsByClassName("mySlides");
             if (n > x.length) {
@@ -625,7 +740,67 @@
             }
             x[slideIndex - 1].style.display = "block";
         }
+        /*pre*/
+        function plusDivs_pre(n) {
+            showDivs_pre(slideIndex += n);
+        }
+
+        function showDivs_pre(n, name) {
+            var i;
+            var x = document.getElementsByClassName("mySlides_pre");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+        /*standard*/
+        function plusDivs_standard(n) {
+            showDivs_standard(slideIndex += n);
+        }
+
+        function showDivs_standard(n, name) {
+            console.log(name);
+            var i;
+            var x = document.getElementsByClassName("mySlides_standard");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
     </script>
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+            
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+        
+    </script>
+    
 </body>
 
 </html>
