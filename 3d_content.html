@@ -104,7 +104,7 @@
                         <h2 class="text-uppercase">3D VIDEOS </h2>
 
                         <div class="tab">
-                            <a href="#video_ultimate"><button id="btn_video_ultimate" class="tablinks" onclick="openCity(event, 'video_ultimate')" id="defaultOpen">Ultimate</button></a>
+                            <a href="#video_ultimate"><button id="btn_video_ultimate defaultOpen" class="tablinks" onclick="openCity(event, 'video_ultimate')" id="defaultOpen">Ultimate</button></a>
                             <a href="#video_premium"><button id="btn_video_premium" class="tablinks" onclick="openCity(event, 'video_premium')">Premium</button></a>
                             <a href="#video_standard"><button id="btn_video_standard" class="tablinks" onclick="openCity(event, 'video_standard')">Standard</button></a>
                         </div>
@@ -528,23 +528,26 @@
             var btn = document.getElementById("btn_video_standard");
             btn.setAttribute("id", "defaultOpen");
             break;
-//          case "#image_ultimate":
-//            var btn = document.getElementById("btn_image_ultimate");
-//            btn.setAttribute("id", "defaultOpen");
-//            break;
-//          case "#image_premium":
-//            var btn = document.getElementById("btn_image_premium");
-//            btn.setAttribute("id", "defaultOpen");
-//            break;
-//          case "#image_premium":
-//            var btn = document.getElementById("btn_image_standard");
-//            btn.setAttribute("id", "defaultOpen");
-//            break;
-          default:
-            var btn = document.getElementById("btn_video_standard");
+          case "#image_ultimate":
+            var btn = document.getElementById("btn_image_ultimate");
             btn.setAttribute("id", "defaultOpen");
-                var btn2 = document.getElementById("btn_image_premium");
+            break;
+          case "#image_premium":
+            var btn = document.getElementById("btn_image_premium");
+            btn.setAttribute("id", "defaultOpen");
+            break;
+          case "#image_premium":
+            var btn = document.getElementById("btn_image_standard");
+            btn.setAttribute("id", "defaultOpen");
+            break;
+          case "3d_content.html":
+            var btn = document.getElementById("btn_video_standard");
+            btn.setAttribute("id", "deaultOpen");
+            var btn2 = document.getElementById("btn_image_premium");
             btn2.setAttribute("id", "defaultOpen");
+            break;
+          default:
+            break;
         }
     </script>
     <script>
